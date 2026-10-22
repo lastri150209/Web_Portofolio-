@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef7ff;
+    color: #243b53;
+}
+
+
+/* ================= NAVBAR ================= */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 7%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+    z-index: 1000;
+}
+
+nav h2 {
+    color: #4a90c2;
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #243b53;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4a90c2;
+}
+
+
+/* ================= SECTION ================= */
+
+section {
+    min-height: 100vh;
+    padding: 110px 8% 70px;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.judul h2 {
+    color: #4a90c2;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.judul p {
+    color: #627d98;
+    font-size: 20px;
+}
+
+
+/* ================= HOME ================= */
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-text {
+    max-width: 600px;
+}
+
+.home-text h1 {
+    font-size: 55px;
+    color: #4a90c2;
+    margin-bottom: 15px;
+}
+
+.home-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    color: #52677a;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.foto-profil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid white;
+    box-shadow: 0 10px 30px rgba(74,144,194,0.25);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 13px 28px;
+    background: #4a90c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: #3479a8;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-box {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.07);
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 35px;
+}
+
+.logo-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.about-box p {
+    color: #52677a;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+
+/* ================= SKILLS ================= */
+
+.skills {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.skill {
+    background: white;
+    color: #3479a8;
+    padding: 17px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+
+/* ================= PROJECT ================= */
+
+.project-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.project-card h3 {
+    color: #4a90c2;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #627d98;
+    line-height: 1.7;
+}
+
+
+/* ================= EXPERIENCE ================= */
+
+.experience {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.experience h3 {
+    color: #4a90c2;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.experience p {
+    color: #52677a;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.sertifikat {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    margin: 30px auto 0;
+    border-radius: 15px;
+}
+
+
+/* ================= ACHIEVEMENT ================= */
+
+.achievement-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.achievement {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4a90c2;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.achievement h3 {
+    color: #4a90c2;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    color: #627d98;
+    line-height: 1.7;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact-box {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.contact-box p {
+    margin: 18px 0;
+    color: #52677a;
+    font-size: 18px;
+}
+
+.contact-box a {
+    color: #3479a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #dceeff;
+    color: #52677a;
+}
+
+
+/* ================= HP ================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 14px 5%;
+    }
+
+    nav h2 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-text h3 {
+        font-size: 20px;
+    }
+
+    .foto-profil {
+        width: 230px;
+        height: 230px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .logo-container {
+        gap: 20px;
+    }
+
+    .logo-container img {
+        width: 110px;
+        height: 110px;
+    }
+
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
